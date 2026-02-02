@@ -103,25 +103,19 @@ g++ main.cpp -o employee
 
 ## 📌 Learning Outcomes
 
-Practical usage of STL algorithms
-Understanding iterators and lambda functions
-Writing clean, readable, and modern C++ code
-Working with custom data types in STL
+- Practical usage of STL algorithms
+- Understanding iterators and lambda functions
+- Writing clean, readable, and modern C++ code
+- Working with custom data types in STL
 
 ## 🤝 Future Improvements
+- Add file input/output
+- Search employee by ID or name
+- Menu-driven interface
+- Use class instead of struct
+- Exception handling
 
-Add file input/output
-
-Search employee by ID or name
-
-Menu-driven interface
-
-Use class instead of struct
-
-Exception handling
-
-📄 License
-
+##📄 License
 This project is open-source and free to use for learning purposes.
 
-⭐ If you like this project, consider giving it a star!
+##⭐ If you like this project, consider giving it a star!
