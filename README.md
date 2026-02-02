@@ -40,4 +40,63 @@ This project performs common operations such as sorting, filtering, aggregation,
 ---
 
 ## 📂 Project Structure
+```
+Employee-Management-System/
+│
+├── main.cpp
+└── README.md
+```
 
+---
+
+## 🧑‍💻 How It Works
+
+### 1. Employee Structure
+Each employee has:
+- `id` (int)
+- `name` (string)
+- `salary` (double)
+
+### 2. Sorting
+Employees are sorted by salary in **descending order** using `std::sort`.
+
+### 3. Filtering
+Employees earning more than **30000** are filtered using `std::copy_if`.
+
+### 4. Salary Calculations
+- **Total Salary:** calculated using `std::accumulate`
+- **Average Salary:** total salary divided by number of employees
+
+### 5. Max & Min Salary
+- `std::max_element` finds the employee with the highest salary
+- `std::min_element` finds the employee with the lowest salary
+
+---
+
+## ▶️ Sample Output
+```
+Employees sorted by salary -> Highest to lowest
+ID: 105 ,Name: Raman Salary: $50000
+ID: 103 ,Name: Smith Salary: $40000
+ID: 102 ,Name: Janny Salary: $30000
+ID: 104 ,Name: Tony Salary: $30000
+ID: 101 ,Name: Roshan Salary: $10000
+
+Employees who are higherEarners
+ID: 105 ,Name: Raman Salary: $50000
+ID: 103 ,Name: Smith Salary: $40000
+
+Total salary of all the employees are : 160000
+Average salary of all the employees are : 32000
+Max salary of the Employees : 50000
+Min salary of the employee is : 10000
+
+```
+---
+
+## ⚙️ How to Compile & Run
+
+```bash
+g++ main.cpp -o employee
+./employee
+```
