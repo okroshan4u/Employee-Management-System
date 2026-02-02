@@ -115,7 +115,7 @@ g++ main.cpp -o employee
 - Use class instead of struct
 - Exception handling
 
-##📄 License
+## 📄 License
 This project is open-source and free to use for learning purposes.
 
-##⭐ If you like this project, consider giving it a star!
+## ⭐ If you like this project, consider giving it a star!
